@@ -1,6 +1,6 @@
-page-home {
+page-view-note {
     ion-content {
-        background: url(../assets/imgs/bg-1.jpg) no-repeat center fixed;
+        background: url(../assets/imgs/bg3.jpg) no-repeat center fixed;
         background-size: cover;
         &:before {
             content: '';
@@ -10,15 +10,16 @@ page-home {
             bottom: 0;
             left: 0;
             background-image: linear-gradient(to bottom right,#02362c, #003199);
-            opacity: .5;    
+            opacity: .4;    
         }
     }
-
-    .date {
-        font-weight: bold;
-        color: #8888;
-        padding-right: 24px;
-        font-size: 0.8em; 
+    .note-date{
+        font-size: 0.8em;
+        color: #888888;
+        margin-bottom: 12px;
     }
-
 }
+
+
+
+  

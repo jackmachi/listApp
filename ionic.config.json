@@ -1,5 +1,8 @@
 {
   "name": "mytodos",
-  "integrations": {},
-  "type": "ionic-angular"
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular",
+  "pro_id": "ea4e10ce"
 }
